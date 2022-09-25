@@ -1,0 +1,64 @@
+{
+  "name": "backend_project",
+  "version": "1.0.0",
+  "description": "Node.js Application",
+  "main": "server.js",
+  "nodemonConfig": {
+    "ext": "js",
+    "ignore": [
+      "*swagger*"
+    ]
+  },
+  "scripts": {
+    "start": "npx nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Anonymous",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.537.0",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "ethers": "^5.6.8",
+    "express": "^4.16.4",
+    "express-basic-auth": "^1.2.0",
+    "fcm-node": "^1.6.1",
+    "ffmpeg-static": "^5.0.0",
+    "firebase-admin": "^10.2.0",
+    "handlebars": "^4.7.7",
+    "joi": "^17.4.0",
+    "joi-to-swagger": "^5.2.0",
+    "jsonwebtoken": "^8.4.0",
+    "madge": "^5.0.1",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^5.3.13",
+    "multer": "^1.4.2",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.6.1",
+    "pino": "^7.6.5",
+    "pino-logflare": "^0.3.12",
+    "qrcode": "^1.5.0",
+    "redis": "^3.1.2",
+    "request": "^2.88.2",
+    "simple-thumbnail": "^1.6.5",
+    "socket.io": "^4.4.1",
+    "swagger-ui-express": "^4.0.1",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.4"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.3.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "request-ip": "^2.2.0"
+  }
+}
